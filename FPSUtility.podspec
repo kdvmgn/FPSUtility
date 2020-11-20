@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "FPSUtility"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   
   spec.summary      = "Utility for examination FPS rate in iOS apps for better UI performance"
   spec.description  = <<-DESC
@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
   spec.source       = { :git => "https://github.com/kdvmgn/FPSUtility.git", :tag => spec.version.to_s }
-  spec.source_files  = "FPSUtility/**/*"
+  spec.source_files  = "FPSUtility/*.{h,m,swift}"
   spec.requires_arc = true
   spec.framework  = "UIKit"
   spec.swift_version = "5.0"
